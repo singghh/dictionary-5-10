@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="/dic.css">
+</head>
+<body>
+<div class="big-box">
+    <div class="dict-box">
+        <div class="search-box">
+            <input type="text" id="search" placeholder="Search Words">
+            <button onclick="fetchdata()">Search</button>
+        </div>
+        <div class="speaking">
+            <img src="/volume.png" alt="speaker" id="speaker" onclick="fetchdata()">
+        </div>
+    <div class="info">
+        <p id="define">Definition: <p id="sub-def">The act of greeting someone’s arrival, especially by saying \"Welcome!\"; reception.</p></p>
+        <p id="Phonetic">Phonetic: <p id="phone">wɛlkəm/</p></p>
+        <p id="example">Example: <p id="exam">We welcome suggestions for improvement.</p></p>
+        <p id="parts">Parts of Speech: <p id="part">Noun</p></p>
+    </div>
+    </div>
+</div>
+    <script src="/dic.js"></script>
+</body>
+</html>
